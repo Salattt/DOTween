@@ -5,7 +5,7 @@ using UnityEngine;
 public class Colorer : MonoBehaviour
 {
     [SerializeField] private Color _color;
-    [SerializeField] private float _loopTime;
+    [SerializeField] private float _colorChangeTime;
 
     private Material _material;
 
@@ -16,6 +16,6 @@ public class Colorer : MonoBehaviour
 
     private void Start()
     {
-        _material.DOColor(_color, _loopTime / 2).SetLoops(-1, LoopType.Yoyo);
+        _material.DOColor(_color, _colorChangeTime).SetLoops(-1, LoopType.Yoyo);
     }
 }

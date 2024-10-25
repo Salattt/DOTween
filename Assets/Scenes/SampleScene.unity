@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 895f341dcabeeb34eaa43914f1ab2d2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _loopTime: 6
+  _AnimationTime: 2
 --- !u!114 &115191397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _targetScale: {x: 2, y: 2, z: 2}
-  _loopTime: 2
+  _halfLoopTime: 1
 --- !u!114 &461522554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,7 +265,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b965ef743b97b6841b0f3b3d65895ada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _duration: 2
+  _animationTime: 1
+  _rotationPerAnimation: {x: 0, y: 0, z: 180}
 --- !u!114 &461522555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -738,7 +739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _color: {r: 0.9245283, g: 0.047970813, b: 0.047970813, a: 1}
-  _loopTime: 2
+  _colorChangeTime: 1
 --- !u!136 &1401137714
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -851,7 +852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _targetScale: {x: 2, y: 2, z: 2}
-  _loopTime: 2
+  _halfLoopTime: 1
 --- !u!136 &1663177934
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -963,7 +964,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b965ef743b97b6841b0f3b3d65895ada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _duration: 2
+  _animationTime: 1
+  _rotationPerAnimation: {x: 0, y: 0, z: 180}
 --- !u!65 &1709310328
 BoxCollider:
   m_ObjectHideFlags: 0
